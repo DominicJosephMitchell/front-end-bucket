@@ -9,7 +9,6 @@
 const authEvents = require('./event.js')
 const store = require('./store.js')
 
-// const JS = require('./JS.js')
 
 $(() => {
   store.userSignedIn = false

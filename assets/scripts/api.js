@@ -50,7 +50,7 @@ const bucketListCreate = data => {
     data
   })
 }
-// pulled from class lectures
+
 const bucketListUpdate = (data, id) => {
   return $.ajax({
     url: config.apiUrl + '/bucketLists/' + id,
@@ -61,7 +61,7 @@ const bucketListUpdate = (data, id) => {
     data
   })
 }
-// pulled from class lectures
+
 const bucketListDelete = id => {
   return $.ajax({
     url: config.apiUrl + '/bucketLists/' + id,
@@ -71,7 +71,7 @@ const bucketListDelete = id => {
     }
   })
 }
-// pulled from class lectures
+
 const bucketListIndex = () => {
   return $.ajax({
     url: config.apiUrl + '/bucketLists',
